@@ -1,0 +1,35 @@
+.heading-3 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+.checkout {
+    height: 430px;
+    background: #2f2c33;
+    color: white;
+  }
+  
+  .checkout-container {
+    padding: 35px 25px;
+  }
+
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=month]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+input[type=month]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+}
+  

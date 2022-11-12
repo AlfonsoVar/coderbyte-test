@@ -1,0 +1,28 @@
+.item-container .item-image img {
+    height: 430px;
+    width: 100%;
+  }
+  
+  .item-image {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .item-details {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  
+  .item-name {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .item-price {
+    font-size: 25px;
+    font-weight: 700;
+    color: #0b8a6d;
+  }
