@@ -22,6 +22,9 @@ body {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
 }
+.col2{
+  background-color: #f28a4b;
+}
 
 .no-gutters {
   padding-left: 0;
@@ -122,8 +125,54 @@ body {
   margin-right: 5px;
 }
 
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin-left: 243px;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.compraButton{
+  padding-left: 0px;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
 /* Removes form Controls  */
-input[type=number]::-webkit-inner-spin-button, 
+/* input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -139,4 +188,4 @@ input[type=month]::-webkit-inner-spin-button {
 input[type=month]::-webkit-calendar-picker-indicator {
     -webkit-appearance: none;
     display: none;
-}
+} */

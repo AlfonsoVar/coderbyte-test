@@ -1,23 +1,16 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Correr aplicaion a nivel local
 
 ## Available Scripts
 
-In the project directory, you can run:
+Los siguientes son los pasos para levantar el sevidor local.
+
+### `npm install`
+
+Abrimos la terminal y nos ubicamos en la rais del proyecto, una ves ahi ejecutamos npm install,esto nos instalara todas las dependiacias que se necesitan para la aplicación.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ya teniendo las librerias necesarias instaladas ejecutamos npm start, esto nos levantara el puerto (http://localhost:3000) y nos abrira la ventana del navegador con esta url.
 
 ### `npm run build`
 
